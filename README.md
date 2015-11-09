@@ -18,6 +18,7 @@ $ sudo apt-get install wkhtmltopdf
 - 下載 Droid Sans 字型！ ref: http://eric.swiftzer.net/2011/05/download-droid-sans/, ref: https://www.google.com/fonts#UsePlace:use/Collection:Droid+Sans
 - SakalBharati Font！ ref: http://stackoverflow.com/questions/30972339/is-there-any-single-font-which-support-all-indian-language-in-all-android-device
 - Font Merge by yourself. ref: http://fontforge.github.io/en-US/
+- test.ttf - DejaVuSans.ttf Merge fireflysung.ttf By Font Forge Tool, 必須產生為 TrueType Font！
 
 # 結論
 

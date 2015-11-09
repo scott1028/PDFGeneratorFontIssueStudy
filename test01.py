@@ -5,7 +5,7 @@
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 
-pdfmetrics.registerFont(TTFont('wqy-microhei', 'wqy-microhei.ttc'))
+pdfmetrics.registerFont(TTFont('test', 'test.ttf'))
 # pdfmetrics.registerFont(TTFont('DejaVu', 'DejaVuSansCondensed.ttf'))
 
 from reportlab.pdfgen import canvas
@@ -29,7 +29,7 @@ created with Sample_Code/makesimple.py"""
 def make_pdf_file(output_filename, np):
     title = output_filename
     c = canvas.Canvas(output_filename, pagesize=(8.5 * inch, 11 * inch))
-    c.setFont('wqy-microhei', 32)
+    c.setFont('test', 32)
     c.drawString(10, 150, "Some text encoded in UTF-8")
     c.drawString(10, 100, "In the Vera TT Font!")
 
@@ -48,6 +48,6 @@ if __name__ == "__main__":
     nps = [None, 5, 11, 17]
     for i, np in enumerate(nps):
         if np:
-            filename = "simple%d.pdf" % i
+            filename = "test01_%d.pdf" % i
             make_pdf_file(filename, np)
             print ("Wrote", filename)
