@@ -24,6 +24,7 @@ $ sudo apt-get install wkhtmltopdf
 - arialuni.ttf - Arial Unicode MS 可正常顯示很多國家的字包含 CJK！
 - ref: http://unifoundry.com/unifont.html
 - ref: http://ergoemacs.org/emacs/emacs_unicode_fonts.html
+- 支援中文的 Unicode Font 至少也是 1x MB 以上。如過太小估計不支援中文！
 
 # 結論
 
