@@ -1,1 +1,4 @@
-pip install FPDF
+reportlab
+fpdf
+pypdf
+pdfkit
