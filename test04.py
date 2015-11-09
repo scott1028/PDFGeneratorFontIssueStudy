@@ -8,6 +8,11 @@ from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.lib.fonts import addMapping
 from reportlab.pdfbase import pdfmetrics
 
+# create my pdfEncoding, encoding 可以不設定(Optional)
+zenc = pdfmetrics.Encoding('EncodingWithoutVowels', 'WinAnsiEncoding')
+pdfmetrics.registerEncoding(zenc)  # set pdfEncoding
+
+# 
 pdfmetrics.registerFont(TTFont('TestFont', 'unifont-8.0.01.ttf'))
 # pdfmetrics.registerFont(TTFont('TestFont', 'NotoSans-Regular.ttf'))
 # pdfmetrics.registerFont(TTFont('TestFont', 'ARIALUNI.TTF'))
@@ -16,7 +21,7 @@ pdfmetrics.registerFont(TTFont('TestFont', 'unifont-8.0.01.ttf'))
 
 # start to gen pdf
 pdf = canvas.Canvas("test04.pdf")
-pdf.setFont('TestFont', 14)
+pdf.setFont('TestFont', 14)  # set pdfFontName
 
 
 pdf.drawString(10, 100, 'English: Hello World') # func(x, y, text)
