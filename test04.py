@@ -8,7 +8,7 @@ from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.lib.fonts import addMapping
 from reportlab.pdfbase import pdfmetrics
 
-pdfmetrics.registerFont(TTFont('TestFont', 'unifont.ttf'))
+pdfmetrics.registerFont(TTFont('TestFont', 'unifont-8.0.01.ttf'))
 # pdfmetrics.registerFont(TTFont('TestFont', 'NotoSans-Regular.ttf'))
 # pdfmetrics.registerFont(TTFont('TestFont', 'ARIALUNI.TTF'))
 # addMapping('TestFont', 0, 0, 'TestFont')
