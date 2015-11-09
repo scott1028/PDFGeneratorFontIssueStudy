@@ -15,3 +15,7 @@ $ sudo apt-get install wkhtmltopdf
 # 結論
 
 - 使用 HTML to PDF 解吧！
+
+# Demo
+
+![Alt text](https://raw.githubusercontent.com/scott1028/PDFGeneratorFontIssueStudy/master/test03.png "PDF View")
