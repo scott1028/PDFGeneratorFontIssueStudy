@@ -9,11 +9,12 @@ from reportlab.lib.fonts import addMapping
 from reportlab.pdfbase import pdfmetrics
 
 # create my pdfEncoding, encoding 可以不設定(Optional)
-zenc = pdfmetrics.Encoding('EncodingWithoutVowels', 'WinAnsiEncoding')
-pdfmetrics.registerEncoding(zenc)  # set pdfEncoding
+# zenc = pdfmetrics.Encoding('EncodingWithoutVowels', 'WinAnsiEncoding')
+# pdfmetrics.registerEncoding(zenc)  # set pdfEncoding
 
 # 
-pdfmetrics.registerFont(TTFont('TestFont', 'unifont-8.0.01.ttf'))
+pdfmetrics.registerFont(TTFont('TestFont', 'arialuni.ttf'))
+# pdfmetrics.registerFont(TTFont('TestFont', 'unifont-all.ttf'))
 # pdfmetrics.registerFont(TTFont('TestFont', 'NotoSans-Regular.ttf'))
 # pdfmetrics.registerFont(TTFont('TestFont', 'ARIALUNI.TTF'))
 # addMapping('TestFont', 0, 0, 'TestFont')

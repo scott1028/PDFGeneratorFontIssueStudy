@@ -20,7 +20,10 @@ $ sudo apt-get install wkhtmltopdf
 - Font Merge by yourself. ref: http://fontforge.github.io/en-US/
 - test.ttf - DejaVuSans.ttf Merge fireflysung.ttf By Font Forge Tool, 必須產生為 TrueType Font！
 - unifont.ttf - 可正常顯示很多國家的字包含 CJK！
+- unifont-all.ttf - unitfont smooth version！ ref: https://math.berkeley.edu/~serganov/ilyaz.org/software/fonts/
+- arialuni.ttf - Arial Unicode MS 可正常顯示很多國家的字包含 CJK！
 - ref: http://unifoundry.com/unifont.html
+- ref: http://ergoemacs.org/emacs/emacs_unicode_fonts.html
 
 # 結論
 
@@ -28,3 +31,5 @@ $ sudo apt-get install wkhtmltopdf
 ![Alt text](https://raw.githubusercontent.com/scott1028/PDFGeneratorFontIssueStudy/master/test03.png "PDF View")
 02. 使用 unifont.tff
 ![Alt text](https://raw.githubusercontent.com/scott1028/PDFGeneratorFontIssueStudy/master/unifont.ttf.jpg "Unifont View")
+03. 使用 arialuni.ttf
+![Alt text](https://raw.githubusercontent.com/scott1028/PDFGeneratorFontIssueStudy/master/test04.jpg "Unifont View")
