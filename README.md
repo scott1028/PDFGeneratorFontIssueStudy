@@ -11,6 +11,13 @@ $ sudo apt-get install wkhtmltopdf
 - 另類解法。用 Windows Unicode 補完計畫 + HTML 轉 PDF！ ref: https://175fd66bab27fccf9f16aa157d7261e6c150ae2a.googledrive.com/host/0BxHqn7o9vZBaWVZKVWhoUVNKa1U/
 - HTML to PDF Library！ ref: https://pypi.python.org/pypi/pdfkit
 - HTML to PDF，可解多語系字型問題！HTML 檔頭讀字碼一定要捨定！ ex: <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+- Noto Fonts Support！ ref: https://github.com/googlei18n/noto-fonts
+- Noto CJK Fonts Support ref: https://github.com/googlei18n/noto-cjk
+- Noto Font Brower ref: http://www.google.com/get/noto
+- Droid font has support for CJK！ ref: http://stackoverflow.com/questions/18065028/does-dejavu-has-support-for-cjk-chinese-japanese-korean-glyphs
+- 下載 Droid Sans 字型！ ref: http://eric.swiftzer.net/2011/05/download-droid-sans/, ref: https://www.google.com/fonts#UsePlace:use/Collection:Droid+Sans
+- SakalBharati Font！ ref: http://stackoverflow.com/questions/30972339/is-there-any-single-font-which-support-all-indian-language-in-all-android-device
+- Font Merge by yourself. ref: http://fontforge.github.io/en-US/
 
 # 結論
 

@@ -9,10 +9,16 @@ pdf.add_page()
 # Add a DejaVu Unicode font (uses UTF-8)
 # Supports more than 200 languages. For a coverage status see:
 # http://dejavu.svn.sourceforge.net/viewvc/dejavu/trunk/dejavu-fonts/langcover.txt
-pdf.add_font('DejaVu', '', 'DejaVuSansCondensed.ttf', uni=True)
-pdf.set_font('DejaVu', '', 14)
-# pdf.add_font('fireflysung', '', 'fireflysung.ttf', uni=True)
-# pdf.set_font('fireflysung', '', 14)
+# pdf.add_font('DejaVu', '', 'DejaVuSansCondensed.ttf', uni=True)
+# pdf.set_font('DejaVu', '', 14)
+# pdf.add_font('NotoSans', '', 'NotoSans-Regular.ttf', uni=True)
+# pdf.set_font('NotoSans', '', 14)
+# pdf.add_font('NotoSansCJKtc', '', 'NotoSansCJKtc-DemiLight.otf', uni=True)
+# pdf.set_font('NotoSansCJKtc', '', 14)
+# pdf.add_font('wqy-microhei', '', 'wqy-microhei.ttc', uni=True)
+# pdf.set_font('wqy-microhei', '', 14)
+pdf.add_font('DroidSans', '', 'DroidSans.ttf', uni=True)
+pdf.set_font('DroidSans', '', 14)
 
 text = u"""
 English: Hello World
@@ -72,4 +78,4 @@ if False:
     pdf.ln(10)
     pdf.write(5, 'This is standard built-in font')
 
-pdf.output("unicode.pdf", 'F')
+pdf.output("test02.pdf", 'F')
