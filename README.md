@@ -19,10 +19,12 @@ $ sudo apt-get install wkhtmltopdf
 - SakalBharati Font！ ref: http://stackoverflow.com/questions/30972339/is-there-any-single-font-which-support-all-indian-language-in-all-android-device
 - Font Merge by yourself. ref: http://fontforge.github.io/en-US/
 - test.ttf - DejaVuSans.ttf Merge fireflysung.ttf By Font Forge Tool, 必須產生為 TrueType Font！
+- unifont.ttf - 可正常顯示很多國家的字包含 CJK！
 
 # 結論
 
-- 使用 HTML to PDF 解吧！
+01. 使用 HTML to PDF 解吧！
+02. 使用 unifont.tff
 
 # Demo
 
