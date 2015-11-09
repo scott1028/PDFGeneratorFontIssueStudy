@@ -25,10 +25,6 @@ $ sudo apt-get install wkhtmltopdf
 # 結論
 
 01. 使用 HTML to PDF 解吧！
-02. 使用 unifont.tff
-
-# Demo
-
 ![Alt text](https://raw.githubusercontent.com/scott1028/PDFGeneratorFontIssueStudy/master/test03.png "PDF View")
+02. 使用 unifont.tff
 ![Alt text](https://raw.githubusercontent.com/scott1028/PDFGeneratorFontIssueStudy/master/unifont.ttf.jpg "Unifont View")
-
