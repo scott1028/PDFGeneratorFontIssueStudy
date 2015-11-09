@@ -1,3 +1,4 @@
 # PDF Generator Testing 結果
 
 - 多國語系必須逐步設定字型。不可用單一字型產生 PDF 會有些國家的字無法顯示！
+- 每個語系分區都有那個範圍的 Font 支援，似乎沒有看到全包的！ ref: http://www.alanwood.net/unicode/fontsbyrange.html
