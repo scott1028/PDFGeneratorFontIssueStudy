@@ -18,7 +18,7 @@ $ sudo apt-get install wkhtmltopdf
 - ref: http://ergoemacs.org/emacs/emacs_unicode_fonts.html
 - 支援中文的 Unicode Font 至少也是 1x MB 以上。如過太小估計不支援中文！
 - ref: https://github.com/rolandwalker/unicode-fonts
-- ref: http://unicode.org/resources/fonts.html ( Unicode 官網推薦 )
+- ref: http://unicode.org/resources/fonts.html ( Unicode 官網推薦！ )
 
 # 結論
 
