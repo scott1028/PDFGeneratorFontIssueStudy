@@ -13,7 +13,7 @@ $ sudo apt-get install wkhtmltopdf
 - HTML to PDF，可解多語系字型問題！HTML 檔頭讀字碼一定要捨定！ ex: <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 - Unifont 字型系列：unifont.ttf - 可正常顯示很多國家的字包含 CJK！
 - Unifont 字型系列：unifont-all.ttf - unitfont smooth version！ ref: https://math.berkeley.edu/~serganov/ilyaz.org/software/fonts/
-- Arial Unicode MS 字型系列：arialuni.ttf - Arial Unicode MS 可正常顯示很多國家的字包含 CJK！
+- Arial Unicode MS 字型系列：arialuni.ttf - Arial Unicode MS 可正常顯示很多國家的字包含 CJK！！
 - ref: http://unifoundry.com/unifont.html
 - ref: http://ergoemacs.org/emacs/emacs_unicode_fonts.html
 - 支援中文的 Unicode Font 至少也是 1x MB 以上。如過太小估計不支援中文！
