@@ -26,5 +26,5 @@ $ sudo apt-get install wkhtmltopdf
 ![Alt text](https://raw.githubusercontent.com/scott1028/PDFGeneratorFontIssueStudy/master/test03.png "PDF View")
 02. 使用 unifont.tff (幾乎都支援到最新的Unicode版本，但是字體不好看，有一好沒兩好！)
 ![Alt text](https://raw.githubusercontent.com/scott1028/PDFGeneratorFontIssueStudy/master/unifont.ttf.jpg "Unifont View")
-03. 使用 arialuni.ttf - Arial Unicode MS (推薦)
+**03. 使用 arialuni.ttf - Arial Unicode MS (推薦)**
 ![Alt text](https://raw.githubusercontent.com/scott1028/PDFGeneratorFontIssueStudy/master/test04.jpg "Unifont View")
